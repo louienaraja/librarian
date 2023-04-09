@@ -1,0 +1,25 @@
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Castlevania: SoTN"
+}
+
+###
+
+PUT http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Castlevania: Symphony of The Night"
+}
+
+###
+
+DELETE http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
